@@ -1,0 +1,220 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Nunito', sans-serif;
+        background: url('fairway.jpg') fixed bottom;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    main {
+        margin: 0 auto;
+        padding: 15px 10px;
+        max-width: 390px;
+        background-color: rgba(0, 0, 0, .4);
+        border-radius: 10px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    header,
+    .answer-box {
+        text-align: center;
+    }
+    /* typography */
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .results-heading {
+        font-size: 25px;
+    }
+    
+    .results-content {
+        font-size: 18px;
+    }
+    
+    .quiz-start h1,
+    header ul,
+    .answer-box,
+    h2,
+    p {
+        text-shadow: 1px 2px #000;
+    }
+    /* header */
+    
+    header {
+        padding: 15px 0 5px;
+        font-size: 25px;
+    }
+    
+    header ul {
+        padding: 0;
+        margin: 25px;
+    }
+    
+    header li {
+        display: inline-block;
+        margin: 0 5px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+    }
+    
+    header span {
+        font-weight: 400;
+    }
+    /* form */
+    
+    .js-question-form {
+        display: none;
+    }
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    fieldset {
+        padding: 0;
+    }
+    
+    form,
+    fieldset {
+        border: none;
+    }
+    
+    input {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        position: relative;
+        top: 4px;
+        width: 16px;
+        height: 16px;
+        border: 2px solid rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        outline: none;
+        transition: 0.4s all linear;
+    }
+    
+    input:checked {
+        border: 8px solid rgba(255, 255, 255, 1);
+    }
+    
+    .answer-box {
+        max-width: 600px;
+        margin: 5px auto;
+        padding: 5px;
+        font-size: 16px;
+        text-align: left;
+        border: 2px solid rgba(255, 255, 255, .8);
+        border-radius: 5px;
+    }
+    
+    .answer-box label:hover {
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .answer-box:focus-within {
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, .4);
+        border-radius: 5px;
+    }
+    /* buttons */
+    
+    button {
+        display: block;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 300;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        width: 150px;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+    
+    .start-button:hover,
+    .submit-button:hover,
+    .next-button:hover,
+    .restart-button:hover {
+        background-color: rgb(30, 30, 30);
+    }
+    
+    .submit-button {
+        width: 100%;
+        margin-top: 15px;
+    }
+    /* icons */
+    
+    img {
+        width: 80px;
+    }
+    
+    .feedback-img {
+        display: block;
+        width: 50px;
+        margin: 0 auto;
+    }
+    /* media queries */
+    
+    @media only screen and (min-width: 550px) {
+        main {
+            padding: 10px;
+            max-width: 500px;
+        }
+        img {
+            width: 80px;
+        }
+        .answer-box {
+            font-size: 17px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        main {
+            padding: 15px;
+            max-width: 700px;
+        }
+        header {
+            padding: 25px 0;
+            font-size: 25px;
+        }
+        fieldset {
+            padding: .35em .625em .75em;
+        }
+        .answer-box {
+            font-size: 19px;
+        }
+        img {
+            width: 100px;
+        }
+        .feedback-img {
+            width: 65px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .results-heading {
+            font-size: 30px;
+        }
+        .results-content {
+            font-size: 23px;
+        }
+    }

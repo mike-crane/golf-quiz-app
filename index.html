@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Golf Quiz App</title>
+    <meta name="description" content="Test your knowledge of the game of golf and it's history">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--PERSISTENT HEADER ACROSS ALL PAGES-->
+    <header role="banner">
+        <img src="crossed_clubs.png" alt="logo with crossed golf clubs and golf ball in between">
+        <ul>
+            <li>Question: <span class="js-question-number">0</span><span>/10</span></li>
+            <li>Score: <span class="js-score">0</span></li>
+        </ul>
+    </header>
+
+    <main role="main">
+        <!-- START PAGE -->
+        <section role="region" class="quiz-start js-quiz-start">
+            <h1>What's your Golf IQ?</h1>
+            <button type="button" class="start-button js-start-button">Find Out!</button>
+        </section>
+
+        <div class="js-question-form" aria-live="assertive"></div>
+    </main>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
