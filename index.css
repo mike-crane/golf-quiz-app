@@ -4,7 +4,7 @@
     
     body {
         font-family: 'Nunito', sans-serif;
-        background: url('fairway.jpg') fixed bottom;
+        background: url('images/fairway.jpg') fixed bottom;
         background-size: cover;
         color: #fff;
     }

@@ -10,7 +10,7 @@ const QUIZ = [{
             'Saint Andrew\'s'
         ],
         fact: 'The Old Course at St Andrew\'s is considered the oldest golf course in the world',
-        icon: 'hole.png',
+        icon: 'images/hole.png',
         alt: 'golf hole icon'
     },
     {
@@ -23,7 +23,7 @@ const QUIZ = [{
             'Masters | Scottish Open | US Open | PGA Championship'
         ],
         fact: 'When a golfer wins all four majors at any time during their career, it\'s referred to as a Career Grand Slam',
-        icon: 'trophy.png',
+        icon: 'images/trophy.png',
         alt: 'trophy icon'
     },
     {
@@ -36,7 +36,7 @@ const QUIZ = [{
             'Michael'
         ],
         fact: 'Eldrick was coined by Tiger\'s mother because it began with "E" (for Earl) and ended with "K" (for Kultida).',
-        icon: 'player.png',
+        icon: 'images/player.png',
         alt: 'golfer icon'
     },
     {
@@ -49,7 +49,7 @@ const QUIZ = [{
             'Lose your turn'
         ],
         fact: 'Birdie comes from the early 20th century American slang term "bird", meaning anything excellent.',
-        icon: 'flag.png',
+        icon: 'images/flag.png',
         alt: 'golf flag icon'
     },
     {
@@ -62,7 +62,7 @@ const QUIZ = [{
             '16'
         ],
         fact: 'Professional golfer Johnny Miller was once penalized 4 strokes after finding one of his son\'s plastic clubs stuffed in the bottom of his bag',
-        icon: 'bag.png',
+        icon: 'images/bag.png',
         alt: 'golf bag icon'
     },
     {
@@ -75,7 +75,7 @@ const QUIZ = [{
             'They showed the most respect during the round'
         ],
         fact: 'Contrary to honoring the lowest score, playing "ready golf" means that each golfer within a group hits when ready',
-        icon: 'cart.png',
+        icon: 'images/cart.png',
         alt: 'golf cart icon'
     },
     {
@@ -88,7 +88,7 @@ const QUIZ = [{
             'The green'
         ],
         fact: 'Golfers have the option to tee up anywhere in-between two tee markers and two-club-lengths back from them',
-        icon: 'iron.png',
+        icon: 'images/iron.png',
         alt: 'golf iron and golf ball icon'
     },
     {
@@ -101,7 +101,7 @@ const QUIZ = [{
             'Grounding club in a sand trap'
         ],
         fact: 'A golfer can actually be penalized for playing too slowly',
-        icon: 'glove.png',
+        icon: 'images/glove.png',
         alt: 'golf glove icon'
     },
     {
@@ -114,7 +114,7 @@ const QUIZ = [{
             'Dried tree sap'
         ],
         fact: 'The feathery or featherie is the most famous of all golf balls, though it is not definitively known when or where it was developed',
-        icon: 'ball.png',
+        icon: 'images/ball.png',
         alt: 'golf ball icon'
     },
     {
@@ -127,7 +127,7 @@ const QUIZ = [{
             'Ben Hogan'
         ],
         fact: 'Nicknamed "The Golden Bear", Jack Nicklaus is widely regarded as the greatest golfer of all time, winning a record 18 career major championships',
-        icon: 'player.png',
+        icon: 'images/player.png',
         alt: 'golfer icon'
     }
 ];
