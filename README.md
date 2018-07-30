@@ -6,6 +6,13 @@ A quiz application that tests a users knowledge around the game of golf. After a
 
 - [Live Demo](https://mike-crane.github.io/golf-quiz-app/)
 
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
 ## Screenshots
 
 Landing Page:
@@ -27,10 +34,3 @@ Incorrect Response Page:
 Results Page:
 
 ![results page](images/screenshots/results.png)
-
-## Built With
-
-* HTML
-* CSS
-* JavaScript
-* jQuery
